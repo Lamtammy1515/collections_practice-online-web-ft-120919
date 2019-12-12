@@ -21,6 +21,7 @@ def swap_elements(array)
 end
 
 
+
 def reverse_array(array)
   array.reverse
 end
@@ -37,3 +38,5 @@ def find_a(array)
   array.find_all do |word|
     word[0] == "a"
   end
+end
+
